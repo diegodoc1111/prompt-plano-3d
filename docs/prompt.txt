@@ -1,0 +1,13 @@
+En esta carpeta hay una imagen con la foto del plano de una casa. Quiero que la conviertas en una experiencia 3D que se pueda recorrer en el navegador, como un sitio web, para mostrársela a un cliente.
+
+Hazlo así:
+
+1. Mira la imagen del plano y entiende la distribución: cada ambiente (sala, comedor, cocina, baños, habitaciones, garaje, patio), sus medidas aproximadas, y dónde están las puertas, las ventanas y las aberturas entre ambientes. Antes de construir, escríbeme la lista de ambientes con sus medidas y espera mi confirmación.
+
+2. Construye UN SOLO archivo llamado casa3d.html que abra con doble clic, sin instalar nada (usa Three.js desde un CDN). La casa en 3D debe respetar el plano al pie de la letra: paredes con grosor, puertas y ventanas en su sitio, piso distinto en cada ambiente, techo que se puede mostrar u ocultar, y muebles sencillos en cada ambiente según su uso (sofá y TV en la sala, mesa y sillas en el comedor, mesón y nevera en la cocina, cama en las habitaciones, carro en el garaje, pasto y árboles en el patio). Que se vea realista: luz suave, sombras, materiales con color y textura, nada de colores planos.
+
+3. Navegación: un botón "Recorrido" que entra por la puerta principal y pasa por todos los ambientes con la cámara a la altura de una persona, sin atravesar paredes ni muebles; un modo libre con las flechas del teclado o WASD y el mouse para mirar; y un botón "Vista de plano" desde arriba.
+
+4. Al pasar el mouse por un ambiente, muestra su nombre. Al hacer clic en el sofá, en cualquier mueble o en el piso, abre una paleta de colores y texturas para cambiarlos al instante.
+
+5. Al terminar, abre el archivo en el navegador, revisa que cargue sin errores en la consola y que el recorrido no se meta dentro de ningún mueble. Luego explícame en 5 líneas cómo usarlo.
